@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Exceptions">
+      <UniqueIdentifier>{9196466e-400e-4042-aba9-4b48e583f562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operations">
+      <UniqueIdentifier>{ff06e3cd-ca03-4a8e-9ddd-8bee870c8eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service Providers">
+      <UniqueIdentifier>{8d12eff6-e990-4b7f-a51e-31e52cb4fcc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service Providers\Header Files">
+      <UniqueIdentifier>{f5301486-dbca-41d4-82e4-62b1695f3b43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service Providers\Interface Files">
+      <UniqueIdentifier>{9ceb4aa0-0a07-4da4-91a1-693737a18b7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Locator">
+      <UniqueIdentifier>{e691aa1e-fcfc-4a0b-9ac0-58504ae10327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Locator\Header Files">
+      <UniqueIdentifier>{a4d70096-616d-4d5f-85a7-99777d2ab868}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ServiceProviderAdapter.h">
+      <Filter>Locator\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceProviderCoordinator.h">
+      <Filter>Locator\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceProviderCoordinatorAccessor.h">
+      <Filter>Locator\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultConstructorServiceProvider.h">
+      <Filter>Service Providers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultInjectedServiceProvider.h">
+      <Filter>Service Providers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IServiceProvider.h">
+      <Filter>Service Providers\Interface Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tstrings.h">
+      <Filter>Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="Lifestyle.h">
+      <Filter>Locator\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inject.h">
+      <Filter>Locator\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lok8er.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="namespaces.h" />
+    <ClInclude Include="ActivationException.h">
+      <Filter>Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceLocatorBase.h">
+      <Filter>Locator\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceLocator.h">
+      <Filter>Locator\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryDelegateServiceProvider.h">
+      <Filter>Service Providers\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

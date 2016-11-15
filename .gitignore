@@ -1,29 +1,24 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
 
-# Precompiled Headers
-*.gch
-*.pch
+# Pre-compiled headers
+/ipch
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# nuget packages
+packages/
 
-# Fortran module files
-*.mod
-*.smod
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vc.db
+*.vc.opendb
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# build output
+**/Debug/
+**/Release/
+**/Bin/
+**/Obj/
+**/Pch/

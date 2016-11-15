@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lok8er", "src\lok8er\lok8er.vcxproj", "{18A60A06-6EDF-4925-8050-D6E38A4765B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D26D2BAB-5E79-4909-8A32-D82B9BDA67B1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example", "src\example\example.vcxproj", "{FCE176E6-73A2-4F53-9644-7B5EDDCEFA55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18A60A06-6EDF-4925-8050-D6E38A4765B4}.Debug|x64.ActiveCfg = Debug|x64
+		{18A60A06-6EDF-4925-8050-D6E38A4765B4}.Debug|x64.Build.0 = Debug|x64
+		{18A60A06-6EDF-4925-8050-D6E38A4765B4}.Debug|x86.ActiveCfg = Debug|Win32
+		{18A60A06-6EDF-4925-8050-D6E38A4765B4}.Debug|x86.Build.0 = Debug|Win32
+		{18A60A06-6EDF-4925-8050-D6E38A4765B4}.Release|x64.ActiveCfg = Release|x64
+		{18A60A06-6EDF-4925-8050-D6E38A4765B4}.Release|x64.Build.0 = Release|x64
+		{18A60A06-6EDF-4925-8050-D6E38A4765B4}.Release|x86.ActiveCfg = Release|Win32
+		{18A60A06-6EDF-4925-8050-D6E38A4765B4}.Release|x86.Build.0 = Release|Win32
+		{FCE176E6-73A2-4F53-9644-7B5EDDCEFA55}.Debug|x64.ActiveCfg = Debug|x64
+		{FCE176E6-73A2-4F53-9644-7B5EDDCEFA55}.Debug|x64.Build.0 = Debug|x64
+		{FCE176E6-73A2-4F53-9644-7B5EDDCEFA55}.Debug|x86.ActiveCfg = Debug|Win32
+		{FCE176E6-73A2-4F53-9644-7B5EDDCEFA55}.Debug|x86.Build.0 = Debug|Win32
+		{FCE176E6-73A2-4F53-9644-7B5EDDCEFA55}.Release|x64.ActiveCfg = Release|x64
+		{FCE176E6-73A2-4F53-9644-7B5EDDCEFA55}.Release|x64.Build.0 = Release|x64
+		{FCE176E6-73A2-4F53-9644-7B5EDDCEFA55}.Release|x86.ActiveCfg = Release|Win32
+		{FCE176E6-73A2-4F53-9644-7B5EDDCEFA55}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18A60A06-6EDF-4925-8050-D6E38A4765B4} = {D26D2BAB-5E79-4909-8A32-D82B9BDA67B1}
+		{FCE176E6-73A2-4F53-9644-7B5EDDCEFA55} = {D26D2BAB-5E79-4909-8A32-D82B9BDA67B1}
+	EndGlobalSection
+EndGlobal
